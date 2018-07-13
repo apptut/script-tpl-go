@@ -1,0 +1,19 @@
+# 项目全局配置文件
+
+# mysql 数据库
+[mysql]
+    host        = ""
+    user        = ""
+    password    = ""
+    port        = ""
+    database    = ""
+
+# mongo 配置相关
+[mongo]
+    uri     = ""
+    dbname  = ""
+
+# 缓存相关配置
+[cache]
+    driver  = "leveldb"
+    path    = ""  # 缓存存储路径, 请自行配置缓存目录，绝对路径
