@@ -31,7 +31,8 @@
 
 ```sh
 # 安装依赖库，是自己情况自行安装配置Gopkg.toml文件，例如需要用到的mysql mongo redis leaveldb等
-./src/demo/dep.sh ensure
+cd src/demo
+./dep.sh ensure
 
 # config配置文件
 cp config/config-example.toml config/config.toml
